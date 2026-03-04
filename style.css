@@ -1,0 +1,27 @@
+img{
+    transition: 2s;
+}
+input:checked ~ img{
+    /* biến mất khỏi giao diện */
+    /* display: none; */
+
+
+    /* mất khỏi giao diện mà vẫn chiếm vị trí */
+   /* visibility: hidden; */
+
+
+    /* làm mờ đi ( vẫn tg tác đc.)*/
+    opacity: 0;
+
+
+    /* lm mờ và ko tg tác đc */
+    /* opacity: 0;
+    visibility: hidden; */
+}
+#sdt{
+    user-select: none;
+    color: orange
+}
+p{
+    background-image: -moz-element();
+}
